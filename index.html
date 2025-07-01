@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism   - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-items">
+                <button class="nav-item active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </button>
+                <button class="nav-item" data-section="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </button>
+                <button class="nav-item" data-section="skills">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </button>
+                <button class="nav-item" data-section="projects">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Projects</span>
+                </button>
+                <button class="nav-item" data-section="contact">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero-section">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-card">
+                <h1 class="hero-title">Alex Johnson</h1>
+                <p class="hero-subtitle">Full-Stack Developer & UI/UX Designer</p>
+                <p class="hero-description">
+                    Crafting beautiful, functional digital experiences with modern technologies. 
+                    Passionate about creating solutions that make a difference.
+                </p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+
+                <button class="scroll-down" data-section="about">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3 class="card-title">My Journey</h3>
+                    <p class="card-text">
+                        With over 5 years of experience in web development, I specialize in creating 
+                        scalable applications using React, Node.js, and cloud technologies. My passion 
+                        lies in transforming complex problems into elegant, user-friendly solutions.
+                    </p>
+                    <p class="card-text">
+                        I believe in continuous learning and staying updated with the latest industry 
+                        trends. When I'm not coding, you'll find me exploring new technologies, 
+                        contributing to open-source projects, or mentoring aspiring developers.
+                    </p>
+
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>San Francisco, CA</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Available for new opportunities</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <h3 class="card-title">What I Do</h3>
+                    <div class="services">
+                        <div class="service-item">
+                            <h4>Frontend Development</h4>
+                            <p>Creating responsive, interactive user interfaces with React, TypeScript, and modern CSS frameworks.</p>
+                        </div>
+                        <div class="service-item">
+                            <h4>Backend Development</h4>
+                            <p>Building robust APIs and server-side applications using Node.js, Python, and cloud services.</p>
+                        </div>
+                        <div class="service-item">
+                            <h4>UI/UX Design</h4>
+                            <p>Designing intuitive user experiences with attention to accessibility and performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            
+            <div class="skills-card">
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">TypeScript</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">AWS</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Docker</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800" alt="E-Commerce Platform">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">Full-stack React application with Node.js backend, featuring real-time inventory management and secure payment processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="#" class="project-link primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AI Dashboard">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Dashboard</h3>
+                        <p class="project-description">Modern analytics dashboard with machine learning insights, real-time data visualization, and predictive analytics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="#" class="project-link primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Mobile Finance App">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mobile Finance App</h3>
+                        <p class="project-description">Cross-platform mobile application for personal finance management with biometric authentication and smart notifications.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">GraphQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Code</span>
+                            </a>
+                            <a href="#" class="project-link primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            
+            <div class="contact-card">
+                <p class="contact-description">
+                    I'm always interested in new opportunities and interesting projects. 
+                    Whether you have a project in mind or just want to connect, I'd love to hear from you.
+                </p>
+                
+                <div class="contact-links">
+                    <a href="mailto:alex@example.com" class="contact-link primary">
+                        <i class="fas fa-envelope"></i>
+                        <span>alex@example.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/alexjohnson" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+                
+                <p class="contact-location">
+                    Based in San Francisco, CA • Available for remote work worldwide
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Alex Johnson. Crafted with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
